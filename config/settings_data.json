@@ -1,0 +1,80 @@
+{
+  "current": {
+    "colors_accent_1": "#80411e",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_pinterest_link": "https:\/\/pinterest.com\/shopify",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Coffee Time ☕",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Chill_Coffee1.png",
+          "logo_width": 130,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "4aa64267-70c1-4e92-be8f-7c7b5f03790a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Navigation",
+              "menu": "main-menu"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
+          "f13211da-6a66-477d-bc2c-82344e4377dd": {
+            "type": "text",
+            "settings": {
+              "heading": "Chill Coffee",
+              "subtext": "<p>Enosstad, Idaho<br\/>44408<br\/>United States<\/p><p>727-988-6533<\/p><p>hey@chillcoffee.com<br\/><br\/><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "4aa64267-70c1-4e92-be8f-7c7b5f03790a",
+          "footer-0",
+          "f13211da-6a66-477d-bc2c-82344e4377dd"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "For Coffee Lovers ❤",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
+}

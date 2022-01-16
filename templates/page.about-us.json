@@ -1,0 +1,171 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "1642340463b4c6c8d1": {
+      "type": "image-with-text",
+      "blocks": {
+        "1642340462e0adc07e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Founder Jeannie"
+          }
+        },
+        "1642340462e0adc07e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1642340462e0adc07e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1642340462e0adc07e-0",
+        "1642340462e0adc07e-1",
+        "1642340462e0adc07e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1642342041cc53be9f": {
+      "type": "image-with-text",
+      "blocks": {
+        "1642342041a90a1035-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Barista in a Year"
+          }
+        },
+        "1642342041a90a1035-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1642342041a90a1035-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1642342041a90a1035-0",
+        "1642342041a90a1035-1",
+        "1642342041a90a1035-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_3_26e607a1-db7c-44aa-9fdf-9e739eb080e1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "1642342075ca0de4f0": {
+      "type": "image-with-text",
+      "blocks": {
+        "16423420759c4bc9af-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Family Tradition"
+          }
+        },
+        "16423420759c4bc9af-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16423420759c4bc9af-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16423420759c4bc9af-0",
+        "16423420759c4bc9af-1",
+        "16423420759c4bc9af-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_2.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16423421094d74420a": {
+      "type": "image-with-text",
+      "blocks": {
+        "164234210964d81b57-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Excellence"
+          }
+        },
+        "164234210964d81b57-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "164234210964d81b57-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try it Yourself",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164234210964d81b57-0",
+        "164234210964d81b57-1",
+        "164234210964d81b57-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_4.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "164234298754c533df": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "coffee",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1642340463b4c6c8d1",
+    "1642342041cc53be9f",
+    "1642342075ca0de4f0",
+    "16423421094d74420a",
+    "164234298754c533df"
+  ]
+}
