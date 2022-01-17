@@ -27,7 +27,9 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "settings": {}
+          "settings": {
+            "picker_type": "button"
+          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -35,7 +37,9 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "settings": {}
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         },
         "description": {
           "type": "description",
@@ -57,15 +61,74 @@
         "description",
         "share"
       ],
-      "settings": {}
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_video_looping": false
+      }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {}
+    "16424275218b17fae9": {
+      "type": "multicolumn",
+      "blocks": {
+        "1642427521f2faf908-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/farmer.png",
+            "title": "Direct Relations with Farmers",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At lectus urna duis convallis convallis tellus.<\/p>"
+          }
+        },
+        "1642427521f2faf908-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-plant.png",
+            "title": "Plant a Tree with every third Order",
+            "text": "<p>Accumsan in nisl nisi scelerisque eu. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Platea dictumst quisque sagittis purus sit amet volutpat.<\/p>"
+          }
+        },
+        "1642427521f2faf908-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/roaster.png",
+            "title": "Roasted by Hand in FL",
+            "text": "<p>Accumsan tortor posuere ac ut consequat semper. Quam id leo in vitae turpis massa. Id venenatis a condimentum vitae. Et tortor at risus viverra adipiscing at in tellus.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1642427521f2faf908-0",
+        "1642427521f2faf908-1",
+        "1642427521f2faf908-2"
+      ],
+      "settings": {
+        "title": "Our Promises 🙌",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16424275637f9161a1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "You may also like 💖",
+        "collection": "coffee",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "16424275218b17fae9",
+    "16424275637f9161a1"
   ]
 }
