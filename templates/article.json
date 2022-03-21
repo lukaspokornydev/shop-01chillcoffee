@@ -5,11 +5,16 @@
       "blocks": {
         "featured_image": {
           "type": "featured_image",
-          "settings": {}
+          "settings": {
+            "image_height": "medium"
+          }
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
         },
         "content": {
           "type": "content",
