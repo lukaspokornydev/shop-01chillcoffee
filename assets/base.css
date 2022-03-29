@@ -2112,3 +2112,50 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
 }
+
+.slider {
+  width: 100%;
+}
+
+.slides {
+  max-width: 350px;
+  margin: 2vh;
+  box-shadow: 0 4px 8px 0 lightgrey;
+}
+
+.quote svg {
+  max-width: 8%;
+  padding: 1.5rem 1.5rem;
+}
+
+.man img {
+  border-radius: 50%;
+  margin: 0 auto;
+  max-width: 20%;
+  padding: 1rem;
+}
+
+.text {
+  padding: 0 1.5rem;
+  text-align: left;
+}
+
+.name {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.coffee-info {
+  width: 100%;
+}
+
+.indicator {
+  display: flex;
+ 
+}
+
+.indicator svg {
+  max-height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

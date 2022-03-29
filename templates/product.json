@@ -48,6 +48,25 @@
         "share": {
           "type": "share",
           "settings": {}
+        },
+        "e6f4c267-0233-47d0-ab54-e46d548b9c46": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "content": "<p>{{ product.metafields.my_fields.shipping.value }}<\/p>",
+            "page": "",
+            "icon": "truck"
+          }
+        },
+        "74205a00-3834-4f5c-a805-59986f1576a3": {
+          "type": "coffee_info",
+          "settings": {
+            "taste": "Hazelnut, Sweet Fruitsees",
+            "strength": "4",
+            "acidity": "3",
+            "type": "100% Arabica, Single Originos",
+            "origin": "Ethiopia"
+          }
         }
       },
       "block_order": [
@@ -59,7 +78,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "e6f4c267-0233-47d0-ab54-e46d548b9c46",
+        "74205a00-3834-4f5c-a805-59986f1576a3"
       ],
       "settings": {
         "enable_sticky_info": true,

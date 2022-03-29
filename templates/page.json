@@ -3,9 +3,14 @@
     "main": {
       "type": "main-page",
       "settings": {}
+    },
+    "1648198858ee5773fa": {
+      "type": "testimonial-slider",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "1648198858ee5773fa"
   ]
 }

@@ -6,9 +6,6 @@ hello from the section files
 <h2>{{product.title}}</h2>
 <img src="{{product.featured_image | img_url:'300x'}}"/>
 
-<h4>{{section.settings.tax}}</h4>
-<h4>{{section.settings.shipping}}</h4>
-
 {% for block in section.blocks %}
 
     {% case block.type %}
@@ -20,7 +17,7 @@ hello from the section files
             <h4>{{block.settings.shipping_notice_text}}</h4>
 
         {% when "product_price_block" %}
-            <h4>{{product.price}}</h4>
+            <h4>{{product.price | money}}</h4>
 
     {% endcase %}
 

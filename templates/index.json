@@ -53,7 +53,7 @@
       "settings": {
         "heading": "Learn more about coffee 💡",
         "blog": "news",
-        "post_limit": 3,
+        "post_limit": 2,
         "show_image": true,
         "show_date": false,
         "show_author": false,

@@ -1,0 +1,13 @@
+{% comment %} {% assign level = 2 %} {% endcomment %}
+<div class="indicator"> 
+
+{% for i in (1..5) %}
+
+    {% if i <= level %}
+        {% render 'icon-filled', level:5 %}
+    {% else %}
+        {% render 'icon-empty' %} 
+    {% endif %}
+
+{% endfor %}
+</div>

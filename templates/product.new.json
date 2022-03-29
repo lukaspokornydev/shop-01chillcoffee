@@ -5,7 +5,9 @@
       "blocks": {
         "d04dc79c-f6cc-4445-8e10-b5d9650db2d0": {
           "type": "product_price_block",
-          "settings": {}
+          "settings": {
+            "product_price_text": 1300
+          }
         },
         "f2d8e011-da7c-4f1c-8af5-470a9af9a875": {
           "type": "tax_notice_block",
