@@ -61,11 +61,11 @@
         "74205a00-3834-4f5c-a805-59986f1576a3": {
           "type": "coffee_info",
           "settings": {
-            "taste": "Hazelnut, Sweet Fruitsees",
-            "strength": "4",
-            "acidity": "3",
-            "type": "100% Arabica, Single Originos",
-            "origin": "Ethiopia"
+            "taste": "{{ product.metafields.my_fields.taste.value }}",
+            "strength": "{{ product.metafields.my_fields.strength.value }}",
+            "acidity": "{{ product.metafields.my_fields.acidity.value }}",
+            "type": "{{ product.metafields.my_fields.type.value }}",
+            "origin": "{{ product.metafields.my_fields.origin.value }}"
           }
         }
       },
