@@ -136,7 +136,7 @@
     "16486430804d37f063": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "Our Blog",
         "blog": "news",
         "post_limit": 3,
         "show_image": true,
