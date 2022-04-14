@@ -1,0 +1,24 @@
+<div class="marquee-container">
+<div class="marquee">
+<div class="marquee-words">{{ section.settings.marquee }}&nbsp;</div>
+</div>
+<!--- Coded by jotting.com --->
+</div>
+{% schema %}
+{
+"name": "Marquee",
+"settings": [
+{
+"type": "text",
+"id": "marquee",
+"label": "Marquee text"
+}
+] ,
+"presets": [
+{
+"name": "Marquee",
+"category":"Custom"
+}
+]
+}
+{% endschema %}

@@ -2119,20 +2119,26 @@ details-disclosure > details {
 
 .slides {
   max-width: 350px;
-  margin: 2vh;
-  box-shadow: 0 4px 8px 0 lightgrey;
+  margin: 30px;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.quote svg {
+.quote img {
   max-width: 8%;
   padding: 1.5rem 1.5rem;
 }
 
+.man {
+  text-align: center;
+}
+
 .man img {
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 15px auto;
   max-width: 20%;
-  padding: 1rem;
+  /* padding: 1rem; */
+
 }
 
 .text {
@@ -2145,17 +2151,42 @@ details-disclosure > details {
   margin: 15px 0;
 }
 
-.coffee-info {
-  width: 100%;
+
+
+/* MARQUEE */
+.marquee-container {
+  overflow: hidden;
+}
+
+.marquee {
+  margin: 0;
+  display: inline-block;
+}
+
+.marquee-words {
+  white-space: nowrap;
+  animation: marquee-keywords 15s linear infinite;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+
+@keyframes marquee-keywords {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .indicator {
   display: flex;
- 
 }
 
 .indicator svg {
   max-height: 35px;
   margin-top: 10px;
   margin-bottom: 10px;
+  max-width: 35px;
 }
+

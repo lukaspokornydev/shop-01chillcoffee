@@ -48,13 +48,20 @@
         "show_vendor": false
       }
     },
+    "16496588529a2ddce7": {
+      "type": "marquee",
+      "disabled": true,
+      "settings": {
+        "marquee": "Hello, Marquee text here! Hello, Marquee text here!  Hello, Marquee text here!  Hello, Marquee text here! Hello, Marquee text here! Hello, Marquee text here!  Hello, Marquee text here!  Hello, Marquee text here!"
+      }
+    },
     "image_text": {
       "type": "image-with-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Coffee Clubs"
+            "heading": "Coffee Club"
           }
         },
         "text": {
@@ -150,6 +157,7 @@
   "order": [
     "image_banner",
     "featured_products",
+    "16496588529a2ddce7",
     "image_text",
     "16423372725315e2f7",
     "16423372747cb690fa",

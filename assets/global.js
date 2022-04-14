@@ -628,7 +628,7 @@ class VariantRadios extends VariantSelects {
 customElements.define('variant-radios', VariantRadios);
 
 $(document).ready(function(){
-$('.slider').slick({
+  $('.slider').slick({
     dots: true,
     infinite: true,
     slidesToShow: 3,
@@ -648,7 +648,7 @@ $('.slider').slick({
             }
         }
     ]
+  });
+  
 });
-});
-
 

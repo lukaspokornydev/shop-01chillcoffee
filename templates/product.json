@@ -94,7 +94,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/farmer.png",
-            "title": "Direct Relations with Farmers",
+            "title": "Direct relations with farmers",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At lectus urna duis convallis convallis tellus.<\/p>"
           }
         },
@@ -102,7 +102,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/coffee-plant.png",
-            "title": "Plant a Tree with every third Order",
+            "title": "Plant a tree with every third order",
             "text": "<p>Accumsan in nisl nisi scelerisque eu. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Platea dictumst quisque sagittis purus sit amet volutpat.<\/p>"
           }
         },
@@ -110,7 +110,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/roaster.png",
-            "title": "Roasted by Hand in FL",
+            "title": "Roasted by hand in Florida",
             "text": "<p>Accumsan tortor posuere ac ut consequat semper. Quam id leo in vitae turpis massa. Id venenatis a condimentum vitae. Et tortor at risus viverra adipiscing at in tellus.<\/p>"
           }
         }

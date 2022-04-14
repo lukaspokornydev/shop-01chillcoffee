@@ -6,6 +6,7 @@
     },
     "1648198858ee5773fa": {
       "type": "testimonial-slider",
+      "disabled": true,
       "settings": {}
     }
   },
