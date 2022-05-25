@@ -2113,6 +2113,8 @@ details-disclosure > details {
   word-break: break-word;
 }
 
+/* slider */
+
 .slider {
   width: 100%;
 }
@@ -2124,9 +2126,13 @@ details-disclosure > details {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.quote img {
-  max-width: 8%;
-  padding: 1.5rem 1.5rem;
+.slides:focus {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.quote svg {
+  max-width: 18px;
+  max-height: 35px;
 }
 
 .man {
