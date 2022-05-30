@@ -6,6 +6,28 @@
     },
     "1648198858ee5773fa": {
       "type": "testimonial-slider",
+      "blocks": {
+        "67a8eb23-2b2d-4d84-8166-d6d85287b860": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>I like this coffee. I like this coffee. I like this coffee. I like this coffee. I like this coffee.<\/p>",
+            "name": "Jirka Farmer",
+            "photo": "shopify:\/\/shop_images\/farmer.png"
+          }
+        },
+        "2f3cf468-21a5-45a0-9fad-4a593dfe3ea5": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Me coffee like. Me coffee like. Me coffee like. Me coffee like. Me coffee like. Me coffee like.<\/p>",
+            "name": "Yoda Smith",
+            "photo": "shopify:\/\/shop_images\/farmer.png"
+          }
+        }
+      },
+      "block_order": [
+        "67a8eb23-2b2d-4d84-8166-d6d85287b860",
+        "2f3cf468-21a5-45a0-9fad-4a593dfe3ea5"
+      ],
       "settings": {}
     }
   },

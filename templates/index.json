@@ -48,13 +48,6 @@
         "show_vendor": false
       }
     },
-    "16496588529a2ddce7": {
-      "type": "marquee",
-      "disabled": true,
-      "settings": {
-        "marquee": "Hello, Marquee text here! Hello, Marquee text here!  Hello, Marquee text here!  Hello, Marquee text here! Hello, Marquee text here! Hello, Marquee text here!  Hello, Marquee text here!  Hello, Marquee text here!"
-      }
-    },
     "image_text": {
       "type": "image-with-text",
       "blocks": {
@@ -100,46 +93,6 @@
         "full_width": false
       }
     },
-    "16423372747cb690fa": {
-      "type": "collage",
-      "blocks": {
-        "1642337274b3bd27fa-1": {
-          "type": "product",
-          "settings": {
-            "product": "coffee-colombia",
-            "secondary_background": false,
-            "second_image": false,
-            "image_padding": false
-          }
-        },
-        "22a09896-059d-449c-9a28-f918ed6ad839": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/collage-section.png",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "c17802ab-3b00-42df-a51b-5ac330583ff6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/collage-section.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "1642337274b3bd27fa-1",
-        "22a09896-059d-449c-9a28-f918ed6ad839",
-        "c17802ab-3b00-42df-a51b-5ac330583ff6"
-      ],
-      "settings": {
-        "heading": "Coffee of the Month 💥",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
     "16486430804d37f063": {
       "type": "featured-blog",
       "settings": {
@@ -157,10 +110,8 @@
   "order": [
     "image_banner",
     "featured_products",
-    "16496588529a2ddce7",
     "image_text",
     "16423372725315e2f7",
-    "16423372747cb690fa",
     "16486430804d37f063"
   ]
 }
