@@ -7,5 +7,3 @@
 <strong>location specific content</strong>
 - v main-product.liquid
 
-- <strong>affiliate product</strong>
-- v main-product.liquid
